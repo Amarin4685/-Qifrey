@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Almendra:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    background-color: burlywood;
+}
+html,body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    text-align: center;
+    background-color: bisque;
+    padding: 20px;
+}
+header img{
+    height: 300px;
+    width: 300px;
+    border: 20px solid burlywood;
+    border-radius: 50%;
+}
+
+h1{
+  font-family: "Almendra", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 70px;
+  margin: 10px 0 20px 0;
+  color: burlywood;
+}
+h2{
+   font-family: "Almendra", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 70px;
+  margin: 20px 0;
+  color: burlywood; 
+}
+@media (max-width: 600px) {
+    h2{
+        font-size: 40px;
+    }
+}
+
+ol, ul {
+    list-style-position: inside;
+    padding: 10px;
+    margin bottom: 20px 0;
+}
+a{
+    color: rgb(165, 135, 97);
+}
+main{
+     text-align: center;
+    background-color: bisque;
+    max-width: 800px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+main img{
+    max-width: 100%;
+}
+
+footer{
+    max-width: 800px;
+    margin: 0 auto;
+    color: bisque;
+    padding: 0 20px;
+}
+@media (max-width: 600px) {
+    footer p{
+        font-size: 16px;
+    }
+}
